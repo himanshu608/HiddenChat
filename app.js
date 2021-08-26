@@ -55,7 +55,7 @@ app.get('/:page',(req, res) => {
 
 });
 
-httpserver.listen(3000,() => {
+httpserver.listen(process.env.PORT || 3000,() => {
     console.log('listening on port 3000 . ..... . . .');
 })
 var io  = require('socket.io')(httpserver);
