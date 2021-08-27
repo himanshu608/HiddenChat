@@ -1,12 +1,7 @@
 const socket = io();
 
 $(document).ready(()=>{
-    var user;
-    do{
-        user = prompt('Enter your username');
-    }while(!user)
-    
-    socket.emit('joined',user);
+   
     socket.on('messages-db',(msgg)=>{
         msgg.forEach(msg=>{
             appendmessage(msg.message,'incoming',msg.user);

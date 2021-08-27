@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* set entire body that is webpage */
+body{
+    padding-top:10vh;
+}
+.form-class-signup{
+   background-color:antiquewhite;
+   font-family: "poppins", "sans-serif";
+   font-weight: bold;
+   box-shadow: 0 10px 40px black;
+}
+.form-class{
+    background-color:antiquewhite;
+    font-family: "poppins", "sans-serif";
+    font-weight: bold;
+    box-shadow: 0 10px 40px black;
+ }
+ 
